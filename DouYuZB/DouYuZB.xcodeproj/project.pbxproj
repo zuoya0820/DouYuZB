@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AFAA42F21F76D88C0033E3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */; };
-		AFAA42F41F76D88C0033E3AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA42F31F76D88C0033E3AE /* ViewController.swift */; };
 		AFAA42F71F76D88C0033E3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42F51F76D88C0033E3AE /* Main.storyboard */; };
 		AFAA42F91F76D88C0033E3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42F81F76D88C0033E3AE /* Assets.xcassets */; };
 		AFAA42FC1F76D88C0033E3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */; };
 		AFAA43071F76D88C0033E3AE /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43061F76D88C0033E3AE /* DouYuZBTests.swift */; };
 		AFAA43121F76D88C0033E3AE /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43111F76D88C0033E3AE /* DouYuZBUITests.swift */; };
+		AFAA43241F76E4110033E3AE /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = AFAA43231F76E4110033E3AE /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AFAA42EE1F76D88C0033E3AE /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFAA42F31F76D88C0033E3AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFAA42F61F76D88C0033E3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAA42F81F76D88C0033E3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAA42FB1F76D88C0033E3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AFAA430D1F76D88C0033E3AE /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA43111F76D88C0033E3AE /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
 		AFAA43131F76D88C0033E3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAA43231F76E4110033E3AE /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		AFAA42F01F76D88C0033E3AE /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				AFAA43231F76E4110033E3AE /* Classes */,
 				AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */,
-				AFAA42F31F76D88C0033E3AE /* ViewController.swift */,
 				AFAA42F51F76D88C0033E3AE /* Main.storyboard */,
 				AFAA42F81F76D88C0033E3AE /* Assets.xcassets */,
 				AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAA42FC1F76D88C0033E3AE /* LaunchScreen.storyboard in Resources */,
+				AFAA43241F76E4110033E3AE /* Classes in Resources */,
 				AFAA42F91F76D88C0033E3AE /* Assets.xcassets in Resources */,
 				AFAA42F71F76D88C0033E3AE /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAA42F41F76D88C0033E3AE /* ViewController.swift in Sources */,
 				AFAA42F21F76D88C0033E3AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
