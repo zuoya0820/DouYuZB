@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Uc8-Ay-2Dj">
+            <objects>
+                <tabBarController id="YR8-Au-gIs" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="f3e-IU-9JN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fck-Ze-kL6" kind="relationship" relationship="viewControllers" id="0bX-XQ-f3A"/>
+                        <segue destination="Msr-CB-0yT" kind="relationship" relationship="viewControllers" id="fe4-FI-pXB"/>
+                        <segue destination="Dqc-00-QeA" kind="relationship" relationship="viewControllers" id="H6h-7h-uFU"/>
+                        <segue destination="hTu-Tj-8ef" kind="relationship" relationship="viewControllers" id="hk4-hu-ahg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I33-27-7ah" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1006" y="-144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ws1-6Q-esu">
+            <objects>
+                <viewController id="V0g-0L-Bdk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JWy-wm-iyr"/>
+                        <viewControllerLayoutGuide type="bottom" id="gwS-mR-hwv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JDi-cW-hWq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3mV-8H-J4R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ga7-ad-IkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="1416"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="gAV-Ss-FS0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hTu-Tj-8ef" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="btn_user_normal" selectedImage="btn_user_selected" id="4IF-oh-PtQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gZI-Pi-57l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="V0g-0L-Bdk" kind="relationship" relationship="rootViewController" id="pxP-AU-o0W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5Q-Ae-U2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778" y="1525"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="82m-e5-bCp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="fck-Ze-kL6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="xs7-xZ-Cas"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wW-4i-BEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="-472.71364317841085"/>
+        </scene>
+        <!--Live-->
+        <scene sceneID="tsL-27-T8A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Live" id="Msr-CB-0yT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eZc-vB-AAi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kup-pJ-XDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="197"/>
+        </scene>
+        <!--Follow-->
+        <scene sceneID="kXB-Zk-oVs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Follow" id="Dqc-00-QeA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="vt8-PS-Baa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3OM-9z-r4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-380" y="886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_user_normal" width="24" height="24"/>
+        <image name="btn_user_selected" width="24" height="24"/>
+    </resources>
+</document>
