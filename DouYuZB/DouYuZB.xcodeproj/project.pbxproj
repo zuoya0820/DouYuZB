@@ -12,6 +12,9 @@
 		AF7EF63A1F77B8FD005AF2E3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7EF6381F77B8FD005AF2E3 /* Live.storyboard */; };
 		AF7EF63D1F77B92E005AF2E3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7EF63B1F77B92E005AF2E3 /* Follow.storyboard */; };
 		AF7EF6401F77B953005AF2E3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7EF63E1F77B953005AF2E3 /* Profile.storyboard */; };
+		AF7EF6421F77BCD5005AF2E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EF6411F77BCD5005AF2E3 /* MainViewController.swift */; };
+		AF7EF6461F77BF3D005AF2E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EF6451F77BF3D005AF2E3 /* HomeViewController.swift */; };
+		AF7EF6491F77D4BF005AF2E3 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EF6481F77D4BF005AF2E3 /* UIBarButtonItem-Extension.swift */; };
 		AFAA42F21F76D88C0033E3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */; };
 		AFAA42F91F76D88C0033E3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42F81F76D88C0033E3AE /* Assets.xcassets */; };
 		AFAA42FC1F76D88C0033E3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */; };
@@ -42,6 +45,9 @@
 		AF7EF6391F77B8FD005AF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		AF7EF63C1F77B92E005AF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		AF7EF63F1F77B953005AF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		AF7EF6411F77BCD5005AF2E3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AF7EF6451F77BF3D005AF2E3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF7EF6481F77D4BF005AF2E3 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		AFAA42EE1F76D88C0033E3AE /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFAA42F81F76D88C0033E3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF7EF6471F77D487005AF2E3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF7EF6481F77D4BF005AF2E3 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AFAA42E51F76D88B0033E3AE = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +168,9 @@
 		AFAA43271F777DC50033E3AE /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AFAA433A1F778BCB0033E3AE /* Controller */,
 				AFAA433B1F778BCB0033E3AE /* Model */,
 				AFAA433C1F778BCB0033E3AE /* View */,
+				AFAA433A1F778BCB0033E3AE /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -190,6 +204,7 @@
 		AFAA432B1F777DC50033E3AE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				AF7EF6471F77D487005AF2E3 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -198,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7EF6351F77B8AA005AF2E3 /* Home.storyboard */,
+				AF7EF6451F77BF3D005AF2E3 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7EF6321F77B6DE005AF2E3 /* Main.storyboard */,
+				AF7EF6411F77BCD5005AF2E3 /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -378,6 +395,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAA42F21F76D88C0033E3AE /* AppDelegate.swift in Sources */,
+				AF7EF6421F77BCD5005AF2E3 /* MainViewController.swift in Sources */,
+				AF7EF6491F77D4BF005AF2E3 /* UIBarButtonItem-Extension.swift in Sources */,
+				AF7EF6461F77BF3D005AF2E3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +585,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HN4ZK93X5H;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -581,7 +601,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HN4ZK93X5H;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="45b-fV-kJX">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="jTr-Hp-uAh">
             <objects>
-                <viewController id="rP4-C6-3rP" sceneMemberID="viewController">
+                <viewController id="rP4-C6-3rP" customClass="HomeViewController" customModule="DouYuZB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rnW-x1-dl2"/>
                         <viewControllerLayoutGuide type="bottom" id="prt-0N-0k3"/>
@@ -31,7 +32,6 @@
                     <tabBarItem key="tabBarItem" title="主页" image="btn_home_normal" selectedImage="btn_home_selected" id="TGf-HG-bG7"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P7w-XN-n0U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
