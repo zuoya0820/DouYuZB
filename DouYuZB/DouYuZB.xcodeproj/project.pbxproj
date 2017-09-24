@@ -13,7 +13,6 @@
 		AFAA42FC1F76D88C0033E3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */; };
 		AFAA43071F76D88C0033E3AE /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43061F76D88C0033E3AE /* DouYuZBTests.swift */; };
 		AFAA43121F76D88C0033E3AE /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43111F76D88C0033E3AE /* DouYuZBUITests.swift */; };
-		AFAA43241F76E4110033E3AE /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = AFAA43231F76E4110033E3AE /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		AFAA430D1F76D88C0033E3AE /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA43111F76D88C0033E3AE /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
 		AFAA43131F76D88C0033E3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFAA43231F76E4110033E3AE /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +95,8 @@
 		AFAA42F01F76D88C0033E3AE /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
-				AFAA43231F76E4110033E3AE /* Classes */,
+				AFAA43251F777DC50033E3AE /* Classes */,
 				AFAA42F11F76D88C0033E3AE /* AppDelegate.swift */,
-				AFAA42F51F76D88C0033E3AE /* Main.storyboard */,
 				AFAA42F81F76D88C0033E3AE /* Assets.xcassets */,
 				AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */,
 				AFAA42FD1F76D88C0033E3AE /* Info.plist */,
@@ -123,6 +120,62 @@
 				AFAA43131F76D88C0033E3AE /* Info.plist */,
 			);
 			path = DouYuZBUITests;
+			sourceTree = "<group>";
+		};
+		AFAA43251F777DC50033E3AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFAA43261F777DC50033E3AE /* Follow */,
+				AFAA43271F777DC50033E3AE /* Home */,
+				AFAA43281F777DC50033E3AE /* Live */,
+				AFAA43291F777DC50033E3AE /* Main */,
+				AFAA432A1F777DC50033E3AE /* Profile */,
+				AFAA432B1F777DC50033E3AE /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFAA43261F777DC50033E3AE /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		AFAA43271F777DC50033E3AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AFAA43281F777DC50033E3AE /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		AFAA43291F777DC50033E3AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AFAA42F51F76D88C0033E3AE /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AFAA432A1F777DC50033E3AE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AFAA432B1F777DC50033E3AE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +246,7 @@
 				TargetAttributes = {
 					AFAA42ED1F76D88B0033E3AE = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HN4ZK93X5H;
 						ProvisioningStyle = Automatic;
 					};
 					AFAA43011F76D88C0033E3AE = {
@@ -233,7 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAA42FC1F76D88C0033E3AE /* LaunchScreen.storyboard in Resources */,
-				AFAA43241F76E4110033E3AE /* Classes in Resources */,
 				AFAA42F91F76D88C0033E3AE /* Assets.xcassets in Resources */,
 				AFAA42F71F76D88C0033E3AE /* Main.storyboard in Resources */,
 			);
@@ -302,6 +355,7 @@
 				AFAA42F61F76D88C0033E3AE /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AFAA42FA1F76D88C0033E3AE /* LaunchScreen.storyboard */ = {
@@ -413,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HN4ZK93X5H;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -429,7 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HN4ZK93X5H;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
